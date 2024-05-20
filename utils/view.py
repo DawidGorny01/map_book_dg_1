@@ -80,6 +80,7 @@ def edytuj_uzytkownika():
     button_dodaj_uzytkownika.config(text="Zapisz zmiany", command=lambda: aktualizuj_uzytkownika(i))
 
 
+
 def aktualizuj_uzytkownika(i):
     users[i].name = entry_imie.get()
     users[i].surname = entry_nazwisko.get()
